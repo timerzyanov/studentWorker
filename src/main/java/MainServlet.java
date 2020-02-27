@@ -10,11 +10,9 @@ import java.io.PrintWriter;
 public class MainServlet extends HttpServlet {
 
     @Inject
-    @StudentAnnotation
     Person student;
 
     @Inject
-    @WorkerAnnotation
     Person worker;
 
     @Override

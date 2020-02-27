@@ -1,4 +1,6 @@
-@StudentAnnotation
+import javax.enterprise.inject.Alternative;
+
+@Alternative
 public class Student implements Person {
     private String name;
 

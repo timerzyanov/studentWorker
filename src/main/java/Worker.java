@@ -1,4 +1,3 @@
-@WorkerAnnotation
 public class Worker implements Person {
     private String name;
 
